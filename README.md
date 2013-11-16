@@ -105,7 +105,7 @@ resCfg[js_YourProjName.a_js] = {
 ==============
 为了提高混淆压缩的质量，在代码里又分压缩前代码和压缩后代码，例如例子中是以 `__PUBLISH` 变量为分界。例如以下代码：
 ```js	
-if(__PUBLISH) code1 else code2。
+if(__PUBLISH) code1 else code2
 ```
 那么publish之后只会剩下code1。这在某种意义上也会提高代码的运行效率，例如`log`。而且，如果是`log`的时候，通常都是打印写死的String，而String无法压缩。如果用这种方法，可以略微提高压缩率。
 	
