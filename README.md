@@ -3,7 +3,7 @@ ModuleDemo
 
 ###  理想的执行步骤：
 * 1、安装nodejs。
-* 2、安装cocos模块。
+* 2、安装cocos模块（这个是一个nodejs模块，后面所说的工程依赖模块就不是nodejs的模块了，而是引擎的模块）。
 * 3、执行 `cocos init projName -ccDir cch5Dir`创建工程。
 * 4、在`cocos.json`的`dependencies`中添加工程依赖的模块，然后在工程根目录下执行`cocos install`进行模块的安装。
 * 5、编写游戏代码。
