@@ -22,12 +22,13 @@ ModuleDemo
 现实总是残酷的，现在还没实现的那么完整
 ====================
 	脚本部分还未整理成通过 cocos 命令统一执行，而是分散成几个脚本文件，通过webStorm可以直接右击运行。目前除了cocos.js（用于创建工程的demo脚本），其余的都放在tools目录下面。
-而且依赖模块安装的功能尚未实现。
+	而且依赖模块安装的功能尚未实现。
 
 
 目前的操作步骤
 ==============
 1、安装nodejs。
+
 开发环境：webStorm，对于webstorm对nodejs的支持（能够右键运行）需要简单配置，点击工具栏中nodejs图片的按键，然后配置Sources of node.js Core Modules。
 
 2、在cocos.js中修改projName和projDir（默认两个值写成一样的好），然后右击运行该脚本。例如projName 和 projDir都配置为myProj，那么在于cocos.js同级的目录下就会创建出myProj工程。
