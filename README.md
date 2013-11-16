@@ -21,12 +21,10 @@ ModuleDemo
 
 
 ## 现实总是残酷的，现在还没实现的那么完整
-====================
 脚本部分还未整理成通过 `cocos` 命令统一执行，而是分散成几个脚本文件，通过webStorm可以直接右击运行。目前除了`cocos.js`（用于创建工程的demo脚本），其余的都放在`tools`目录下面。而且依赖模块安装的功能尚未实现。
 
 
-目前的操作步骤
-==============
+## 目前的操作步骤
 * 1、安装nodejs。
 
 开发环境：webStorm，对于webstorm对nodejs的支持（能够右键运行）需要简单配置，点击工具栏中nodejs图片的按键，然后配置Sources of node.js Core Modules。
@@ -102,7 +100,6 @@ resCfg[js_YourProjName.a_js] = {
 
 
 ## publish说明
-==============
 为了提高混淆压缩的质量，在代码里又分压缩前代码和压缩后代码，例如例子中是以 `__PUBLISH` 变量为分界。例如以下代码：
 ```js	
 if(__PUBLISH) code1 else code2
