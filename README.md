@@ -2,19 +2,32 @@ ModuleDemo
 ==========
 
   理想的执行步骤：
-  1、安装nodejs。
-  2、安装cocos模块。
-  3、执行 cocos init projName -ccDir cch5Dir 创建工程。
-  4、在cocos.json的dependencies中添加工程依赖的模块，然后在工程根目录下执行 cocos install进行模块的安装。
-  5、编写游戏代码。
-  6、在工程根目录底下执行 cocos genJsRes 生成js的路径映射配置文件。
-  7、在工程根目录底下执行 cocos genRes 生成资源的路径映射配置文件。
-  8、在resCfg.js中配置文件依赖。
-  9、在projects/proj.html5中，main.js中写游戏的路口，通过index.html进行开发测试，最终发布的时候js会压缩混淆到mini.js中，通过release.html运行。
-  10、main.js 中，通过配置config的test选项控制是否启动单例测试。
-  11、在工程根目录下执行 cocos publish 进行工程的发布。
-  12、开发完的一个项目就是一个模块，直接扔到引擎的modules目录底下就可以被其他人使用。
-  其中，在工程根目录下的 tools.json 中，配置了执行工具脚本的一些配置信息。在一般情况下，开发者按照默认执行就可以了。
+  
+1、安装nodejs。
+
+2、安装cocos模块。
+
+3、执行 cocos init projName -ccDir cch5Dir 创建工程。
+
+4、在cocos.json的dependencies中添加工程依赖的模块，然后在工程根目录下执行 cocos install进行模块的安装。
+
+5、编写游戏代码。
+
+6、在工程根目录底下执行 cocos genJsRes 生成js的路径映射配置文件。
+
+7、在工程根目录底下执行 cocos genRes 生成资源的路径映射配置文件。
+
+8、在resCfg.js中配置文件依赖。
+
+9、在projects/proj.html5中，main.js中写游戏的路口，通过index.html进行开发测试，最终发布的时候js会压缩混淆到mini.js中，通过release.html运行。
+
+10、main.js 中，通过配置config的test选项控制是否启动单例测试。
+
+11、在工程根目录下执行 cocos publish 进行工程的发布。
+
+12、开发完的一个项目就是一个模块，直接扔到引擎的modules目录底下就可以被其他人使用。
+
+其中，在工程根目录下的 tools.json 中，配置了执行工具脚本的一些配置信息。在一般情况下，开发者按照默认执行就可以了。
 
 
 
